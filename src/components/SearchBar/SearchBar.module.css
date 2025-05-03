@@ -1,0 +1,33 @@
+.searchInput {
+  font-size: 20px;
+  line-height: 113%;
+  padding: 10px 10px 10px 60px;
+  width: 400px;
+  border-radius: 5px;
+  border: 1px solid #242424;
+  transition: border 150ms ease-in-out;
+  &:hover {
+    border: 1px solid #646cff;
+  }
+}
+
+.searchButton {
+  position: absolute;
+  top: 3px;
+  left: 6px;
+  background-color: transparent;
+  transition: color 150ms ease-in-out;
+  &:hover {
+    color: #646cff;
+  }
+}
+
+.searchForm {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.searchFormWrapper {
+  position: relative;
+  width: 400px;
+}

@@ -1,0 +1,8 @@
+.loadMoreBtn {
+  font-size: 20px;
+  transition: color 150ms ease-in-out, border-color 150ms ease-in-out;
+  &:hover {
+    border-color: #646cff;
+    color: #646cff;
+  }
+}

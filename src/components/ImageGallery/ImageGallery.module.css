@@ -1,0 +1,18 @@
+.galleryList {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+
+.galleryItem {
+  width: calc((100% - 80px) / 3);
+  height: 220px;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 150ms ease-in-out;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
