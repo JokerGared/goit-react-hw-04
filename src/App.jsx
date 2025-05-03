@@ -87,7 +87,7 @@ function App() {
       {images.length > 0 && (
         <ImageGallery images={images} openModal={openModal} />
       )}
-      {page < totalPages && !isLoading && (
+      {page < totalPages && !isLoading && !error && (
         <LoadMoreBtn onClick={handleClickLoadMore} />
       )}
       {isLoading && <Loader isLoading={isLoading} />}
